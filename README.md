@@ -12,13 +12,11 @@ users:
 runcmd:
  - echo "AllowUsers cloud" >> /etc/ssh/sshd_config
  - restart ssh
- 
-root@kvm-host1:~/images/deploy-1# vi meta-data
+ root@kvm-host1:~/images/deploy-1# vi meta-data
 	local-hostname: deploy-1
-
 kvm-host1:~/images/deploy-1# genisoimage -output deploy-cidata.iso -volid cidata -joliet -rock user-data meta-data
-
 kvm-host1:~/images/deploy-1# virt-install --connect qemu:///system --virt-type kvm --name deploy-1 --ram 2048 --vcpu=1 --os-type linux --os-variant generic --disk path=/root/images/deploy-1/centos8-1.qcow2,format=qcow2 --disk /root/images/deploy-1/deploy-cidata.iso,device=cdrom --import --network network=default --noautoconsole
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Ubuntu:
 ========
