@@ -3,7 +3,7 @@ users:
  - name: cloud
    sudo: ['ALL=(ALL) NOPASSWD:ALL']
    ssh_authorized_keys:
-     - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDRVQMsnIZPQiGEMRvNNoITuP1PRNcn38PmgH8wJOpDtxGnHI2D7fKrudk71WEC6rDb6fO8KAabmeSRbb5YyIp7VTJb0ABqWuoHhrPgCv0SIEpKtPW8BSPchGk4osnUAuLDOmgrnRXP3vN4L/4nYq/lzmyW6ZtNRAT2GeD3sgF1QoOrg7fs4FgqZnr5IPZN8DmCE9ya4g2LIrwVi6cHa5ml8giek3hIGmVBY9ild2mHopetWlcjr7fDGlI5sjSPJGf/+dDjjrqz7l1d4SVz6NSKZPuiYg3onIAQauBkLVpzrp2tUzRzvxlwktwpxqtALc3aD3HDNLfiDaRNxm5Mw/RWeRz09fdPew9AcOAidG5EPM9d2fP44aDXDSw/0VAtjzdcbBbIg9m5Si8iyUwjjvWQKpD438Dk0AhFgxVGGYfHsF8v6SW7BUDLG2HFEf/KIR6tI8YxwczUcNCYqWFeyPtSnok2HjBBMQXjP20CryabbE/XA7jsegS86YhjTs4GFg8= root@mohammad-kvm-host1  
+     - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDRVQMsnIZPQiGEMRvNNoITuP1PRNcn38PmgH8wJOpDtxGnHI2D7fKrudk71WEC6rDb6fO8KAabmeSRbb5YyIp7V
    groups: users
    shell: /bin/bash
 runcmd:
