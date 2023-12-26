@@ -1,5 +1,4 @@
 ## Centos:
-=======
 ---
 root@kvm-host1:~/images/deploy-1# vi user-data
 ---
