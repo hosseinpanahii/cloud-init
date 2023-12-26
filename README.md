@@ -2,7 +2,7 @@
 ```bash
 root@kvm-host1:~/images/deploy-1# vi user-data
 
-[comment]: #cloud-config
+#cloud-config
 users:
  - name: cloud
    sudo: ['ALL=(ALL) NOPASSWD:ALL']
