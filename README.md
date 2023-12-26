@@ -1,7 +1,7 @@
 ## Centos:
 ```bash
 root@kvm-host1:~/images/deploy-1# vi user-data
-
+```bash
 #cloud-config
 users:
  - name: cloud
